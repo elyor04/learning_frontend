@@ -258,7 +258,7 @@
   </body>
 </html> -->
 
-<html>
+<!-- <html>
   <head>
     <title>Bosh Sahifa</title>
     <style>
@@ -296,5 +296,65 @@
     >
       2-surat
     </button>
+  </body>
+</html> -->
+
+<!-- <html>
+  <body>
+    <hr />
+    <p id="yzv1">JavaScript html uslublarini o'zgartira oladi</p>
+    <button
+      type="button"
+      onclick="document.getElementById('yzv1').style.fontSize='30px'"
+    >
+      Knopka
+    </button>
+    <hr />
+    <p id="yzv2">JavaScript html elementlarini yashirishi mumkin</p>
+    <button
+      type="button"
+      onclick="document.getElementById('yzv2').style.display='none'"
+    >
+      yashirish
+    </button>
+    <hr />
+    <p>JavaScript yashirin elementlarni ko'rsata oladi</p>
+    <p id="yzv3" style="display: none">Salom JavaScript</p>
+    <button
+      type="button"
+      onclick="document.getElementById('yzv3').style.display='block'"
+    >
+      ko'rsatish
+    </button>
+    <hr />
+  </body>
+</html> -->
+
+<!-- <html>
+  <body>
+    <h2>Salom Dunyo</h2>
+    <p id="yzv1"></p>
+    <script>
+      document.getElementById("yzv1").innerHTML = "JavaScript yozuvi";
+    </script>
+  </body>
+</html> -->
+
+<html>
+  <head>
+    <script>
+      function myFunc() {
+        document.getElementById("yzv1").innerHTML = "Matn o'zgardi";
+      }
+    </script>
+    <style>
+      * {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <p id="yzv1" style="font-size: 30px">Bu yerda matn</p>
+    <button type="button" onclick="myFunc()">Knopka</button>
   </body>
 </html>
